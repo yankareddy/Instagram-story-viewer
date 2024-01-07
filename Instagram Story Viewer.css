@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.container-1 {
+    background-image: linear-gradient(#f54f5a, #f58529, #f64f59, #d267c4, #00ffff);
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-card-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-card-1-image {
+    height: 70px;
+    width: 70px;
+    margin: 3px;
+}
+
+.nav-card-1-heading {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Roboto";
+    margin-left: 4px;
+}
+
+.nav-card-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-card-2-head {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Roboto";
+    margin-right: 50px;
+}
+
+.nav-card-2-image {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.main-heading {
+    color: #ffffff;
+    font-family: "Lobster";
+    font-size: 55px;
+}
+
+.main-paragaph {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+.button-1 {
+    background-color: #ffffff;
+    width: 450px;
+    height: 50px;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+.button-2 {
+    background-color: #3b82f6;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    border-width: 0px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-2 {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-2-card {
+    text-align: center;
+    margin: 30px;
+}
+
+.container-2-card-image {
+    height: 100px;
+    width: 100px;
+}
+
+.container-2-card-head {
+    color: #0f172a;
+    font-size: 20px;
+}
+
+@media (max-width:768px) {
+    .nav-card-1-image {
+        height: 80px;
+        width: 80px;
+    }
+
+    .nav-card-1-heading {
+        font-size: 34px;
+    }
+
+    .nav-card-2-head {
+        display: none;
+    }
+
+    .main-heading {
+        font-size: 54px;
+    }
+
+    .main-paragaph {
+        font-size: 23px;
+    }
+
+    .button-container {
+        display: none;
+    }
+
+    .container-2 {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container-1 {
+        background-image: linear-gradient(#f58529, #f64f59, #d267c4, #00ffff, #f54f5a);
+
+    }
+
+}
